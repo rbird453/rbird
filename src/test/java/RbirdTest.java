@@ -61,7 +61,7 @@ public class RbirdTest {
 		
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--headless");		
+		//options.addArguments("--headless");		
 		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
 		driver.get(BASE_URL);
